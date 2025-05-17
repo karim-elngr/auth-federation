@@ -1,0 +1,1 @@
+# permit-pdp base manifests

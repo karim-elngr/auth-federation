@@ -1,0 +1,1 @@
+# resource base manifests

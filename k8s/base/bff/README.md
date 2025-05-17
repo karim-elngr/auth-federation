@@ -1,0 +1,1 @@
+# bff base manifests
