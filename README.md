@@ -35,11 +35,12 @@ Each directory contains a `README.md` explaining how to deploy the component.
 ## Getting Started
 
 1. Install Docker and a local Kubernetes distribution (Kind or Minikube).
-2. Clone this repository and navigate to the `iac/clusters` directory to bootstrap the cluster.
-3. Apply the manifests in `iac/zitadel` to deploy Zitadel with PostgreSQL.
-4. Deploy Permit.io from `iac/permitio`.
-5. Deploy monitoring components from `iac/monitoring`.
-6. Deploy the applications under `apps/` using the GitOps configuration in `ops/flux`.
+2. Clone this repository. Detailed provisioning steps are provided in `iac/README.md`.
+3. Navigate to `iac/clusters` to create the Kubernetes cluster.
+4. Apply the manifests in `iac/zitadel` to deploy Zitadel with PostgreSQL.
+5. Deploy Permit.io from `iac/permitio`.
+6. Deploy monitoring components from `iac/monitoring`.
+7. Deploy the applications under `apps/` using the GitOps configuration in `ops/flux`.
 
 This project is a work in progress and serves as a starting point. Contributions are welcome!
 
