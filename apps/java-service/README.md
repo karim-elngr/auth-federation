@@ -5,4 +5,3 @@ This sample Spring Boot application exposes a single HTTP endpoint. Build and ru
 ```bash
 mvn spring-boot:run
 ```
-
