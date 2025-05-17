@@ -1,0 +1,1 @@
+# observability base manifests

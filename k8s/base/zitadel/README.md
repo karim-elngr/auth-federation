@@ -1,0 +1,1 @@
+# zitadel base manifests
