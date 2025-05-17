@@ -43,3 +43,4 @@ Each directory contains a `README.md` explaining how to deploy the component.
 
 This project is a work in progress and serves as a starting point. Contributions are welcome!
 
+For contribution guidelines, see [AGENTS.md](AGENTS.md).

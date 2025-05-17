@@ -1,3 +1,7 @@
 # Java Resource Server
 
-Sample Java service protected by Zitadel and integrated with Gloo and Permit.io.
+This sample Spring Boot application exposes a single HTTP endpoint. Build and run with:
+
+```bash
+mvn spring-boot:run
+```
