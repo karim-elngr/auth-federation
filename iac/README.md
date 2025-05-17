@@ -22,4 +22,7 @@ This directory contains manifests and configuration files for provisioning the K
    ```
 4. Continue with the application deployments as described under `ops/`.
 
+Terraform modules live under `terraform/` for provisioning additional
+resources such as Zitadel entities.
+
 Refer to each subdirectory `README.md` for additional options and configuration details.
