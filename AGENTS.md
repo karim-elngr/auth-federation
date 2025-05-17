@@ -9,9 +9,11 @@ All directories in this repository are covered by these guidelines. They describ
 ## Project Structure
 
 - **apps/** contains application source code:
-  - `frontend/` – Next.js frontend.
-  - `backend/` – AdonisJS backend written in TypeScript.
-  - `java-service/` – Java resource server secured by Zitadel.
+- `frontend/` – Next.js frontend.
+- `backend/` – AdonisJS backend written in TypeScript.
+- `java-service/` – Java resource server secured by Zitadel.
+
+The frontend uses Tailwind CSS with shadcn UI components. Keep UI code minimal and style via Tailwind classes.
 - **gateway/** holds configuration for Gloo API Gateway.
 - **iac/** provides infrastructure as code, including Kubernetes manifests.
 - **ops/** stores operational configurations such as Flux and Istio setup.
