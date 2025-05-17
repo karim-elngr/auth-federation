@@ -19,7 +19,8 @@ The goal is to run the entire stack locally using Kubernetes (e.g., with [Kind](
 │   ├── clusters/       # Kubernetes cluster configuration
 │   ├── zitadel/        # Helm charts or manifests for Zitadel and PostgreSQL
 │   ├── permitio/       # Permit.io deployment manifests
-│   └── monitoring/     # Prometheus/Grafana manifests and dashboards
+│   ├── monitoring/     # Prometheus/Grafana manifests and dashboards
+│   └── terraform/      # Terraform modules (e.g., Zitadel configuration)
 ├── gateway/            # Gloo API Gateway configuration
 ├── apps/
 │   ├── frontend/       # Next.js application
